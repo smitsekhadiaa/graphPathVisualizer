@@ -1,0 +1,9 @@
+.grid {
+  margin: 40px auto;
+  width: fit-content;     /* shrink-wrap to the grid */
+  user-select: none;
+}
+
+.grid-row {
+  display: flex;          /* each row is a horizontal strip of nodes */
+}
